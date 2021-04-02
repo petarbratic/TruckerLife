@@ -11,120 +11,73 @@ E:\Unity\2020.3.1f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-E:/oop/unity isprobavanje/Probni Projekat
+E:/oop/unity isprobavanje/Probni Projekat/TruckerLife
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53716
-Successfully changed project path to: E:/oop/unity isprobavanje/Probni Projekat
-E:/oop/unity isprobavanje/Probni Projekat
+50745
+Successfully changed project path to: E:/oop/unity isprobavanje/Probni Projekat/TruckerLife
+E:/oop/unity isprobavanje/Probni Projekat/TruckerLife
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 22.40 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 22.60 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.1f1 (77a89f25062f)
 [Subsystems] Discovering subsystems at path E:/Unity/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/oop/unity isprobavanje/Probni Projekat/Assets
+[Subsystems] Discovering subsystems at path E:/oop/unity isprobavanje/Probni Projekat/TruckerLife/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce RTX 2060 SUPER (ID=0x1f06)
     Vendor:   
     VRAM:     8031 MB
-    Driver:   27.21.14.6172
+    Driver:   27.21.14.6589
 Initialize mono
 Mono path[0] = 'E:/Unity/2020.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/Unity/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56848
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000946 seconds.
+Registered in 0.000989 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 22.96 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 22.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for E:\Visual Studio\Common7\IDE\devenv.exe
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.820 seconds
+- Completed reload, in  0.920 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000523 seconds.
+Registered in 0.000499 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.786 seconds
+- Completed reload, in  0.913 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 56.8 MB.
-System memory in use after: 56.9 MB.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.0 MB.
+System memory in use after: 57.0 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1555.
-Total: 1.914200 ms (FindLiveObjects: 0.211200 ms CreateObjectMapping: 0.038200 ms MarkObjects: 1.545500 ms  DeleteObjects: 0.117500 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6374019befeac6ce670f13ba9960efb') in 0.003284 seconds
-  Import took 0.004911 seconds .
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1556.
+Total: 1.874200 ms (FindLiveObjects: 0.199700 ms CreateObjectMapping: 0.040800 ms MarkObjects: 1.531500 ms  DeleteObjects: 0.101300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.811941 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(2b7c097f0cf54d14a825eb539d0b4aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(2b7c097f0cf54d14a825eb539d0b4aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da47d6b538cf0d91b29177fdbdfb4e18') in 0.001505 seconds
-  Import took 0.003171 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000658 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(2b7c097f0cf54d14a825eb539d0b4aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(2b7c097f0cf54d14a825eb539d0b4aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da47d6b538cf0d91b29177fdbdfb4e18') in 0.001368 seconds
-  Import took 0.003018 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.376481 seconds.
   path: Assets/Scripts/Player.cs
   artifactKey: Guid(e27f4ece7aa84084e847a9ccf0daf86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player.cs using Guid(e27f4ece7aa84084e847a9ccf0daf86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e47930294d82c262d59a817f10acc8') in 0.023386 seconds
-  Import took 0.025423 seconds .
+Start importing Assets/Scripts/Player.cs using Guid(e27f4ece7aa84084e847a9ccf0daf86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69ff118162c3459b0bd0eaf2b84ce34') in 0.028419 seconds
+  Import took 0.030286 seconds .
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000500 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.731 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1109 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 56.8 MB.
-System memory in use after: 56.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1559.
-Total: 1.452400 ms (FindLiveObjects: 0.130700 ms CreateObjectMapping: 0.025000 ms MarkObjects: 1.240600 ms  DeleteObjects: 0.055300 ms)
-
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
