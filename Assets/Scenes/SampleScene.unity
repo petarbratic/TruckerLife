@@ -589,7 +589,7 @@ GameObject:
   - component: {fileID: 235067935}
   - component: {fileID: 235067934}
   - component: {fileID: 235067933}
-  - component: {fileID: 235067932}
+  - component: {fileID: 235067937}
   m_Layer: 0
   m_Name: WarehouseTrigger
   m_TagString: Untagged
@@ -597,20 +597,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &235067932
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 235067931}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d23a3f721c908034da7c514ce53765fd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  RestaurantTrig: {fileID: 527793747}
-  StorageTrig: {fileID: 235067931}
 --- !u!65 &235067933
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -687,6 +673,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &235067937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 235067931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d23a3f721c908034da7c514ce53765fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RestaurantTrig: {fileID: 527793747}
+  StorageTrig: {fileID: 235067931}
 --- !u!1001 &254430757
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1402,7 +1402,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 482082513}
-  - component: {fileID: 482082512}
+  - component: {fileID: 482082514}
   m_Layer: 0
   m_Name: LapTimeManager
   m_TagString: Untagged
@@ -1410,22 +1410,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &482082512
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 482082511}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 328e66df2153e2a47ac977113c1732ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MilliCount: 0
-  MinuteBox: {fileID: 811587430}
-  SecondBox: {fileID: 36839118}
-  MilliBox: {fileID: 1524038401}
 --- !u!4 &482082513
 Transform:
   m_ObjectHideFlags: 0
@@ -1440,6 +1424,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &482082514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482082511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328e66df2153e2a47ac977113c1732ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MinuteBox: {fileID: 811587430}
+  SecondBox: {fileID: 36839118}
+  MilliBox: {fileID: 1524038401}
 --- !u!4 &486192901 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 62cd5651c7c92374799e286fbb23385d, type: 3}
@@ -1531,6 +1530,7 @@ GameObject:
   - component: {fileID: 527793750}
   - component: {fileID: 527793749}
   - component: {fileID: 527793748}
+  - component: {fileID: 527793752}
   m_Layer: 0
   m_Name: RestourantTrigger
   m_TagString: Untagged
@@ -1546,7 +1546,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 527793747}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1614,6 +1614,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &527793752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 527793747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2100963bf73a83479e0d7e9ba270789, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RestaurantTrig: {fileID: 527793747}
+  StorageTrig: {fileID: 235067931}
 --- !u!1 &541765072
 GameObject:
   m_ObjectHideFlags: 0
