@@ -59,8 +59,9 @@
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\CameraStable.cs" />
     <Compile Include="Assets\Scripts\StoragePointTrigger.cs" />
-    <Compile Include="Assets\Scripts\LapTimeManager.cs" />
     <Compile Include="Assets\Scripts\LapComplete.cs" />
+    <Compile Include="Assets\Scripts\LapTimeManager.cs" />
+    <Compile Include="Assets\Scripts\CameraChange.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
