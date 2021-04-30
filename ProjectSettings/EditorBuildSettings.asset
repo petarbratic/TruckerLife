@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu2.unity
+    guid: c5f92e955eb238c46825d66a59d37464
+  - enabled: 1
+    path: Assets/Scenes/JobSelect.unity
+    guid: abc8e4a2a3c55e84a9c1e1ab2d3ad955
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Job01.unity
+    guid: d2ba6c26c880b5e42b2337eac0cc9f44
   m_configObjects: {}
