@@ -21,11 +21,19 @@ public class ButtonOptions : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
-    //below here are track selection buttons
+    //below here are job selection buttons
 
 
     public void RobaZaRestoran()
     {
+        SceneManager.LoadScene(3);
+    }
+    public void DostavaHrane()
+    {
         SceneManager.LoadScene(2);
+    }
+    public void Selidba()
+    {
+        SceneManager.LoadScene(4);
     }
 }

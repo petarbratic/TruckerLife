@@ -2,17 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class LapComplete : MonoBehaviour
 {
 
     public GameObject RestaurantTrig;
     public GameObject StorageTrig;
+    public GameObject EndMessage;
 
-   // public GameObject MinuteDisplay;
+    // public GameObject MinuteDisplay;
     ///public GameObject SecondDisplay;
     ///public GameObject MilliDisplay;
 
-//    public GameObject LapTimeBox;
+    //    public GameObject LapTimeBox;
 
     void OnTriggerEnter()
     {
@@ -37,9 +39,22 @@ public class LapComplete : MonoBehaviour
         StoragePointTrigger.storageTrigBool = true;
         RestaurantTrig.SetActive(false);
 
+        EndMessage.SetActive(true);
+        StartCoroutine(Timer());
+
+
+        SceneManager.LoadScene(1);
+        
+        //ButtonOptions a1 = new ButtonOptions();
+        //a1.JobOffers();
+
+
     }
 
-
+    IEnumerator Timer()
+    {
+        yield return new WaitForSeconds(39990);
+    }
 
 
 }
