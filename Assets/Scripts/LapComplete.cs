@@ -37,13 +37,13 @@ public class LapComplete : MonoBehaviour
 
         StorageTrig.SetActive(true);
         StoragePointTrigger.storageTrigBool = true;
-        RestaurantTrig.SetActive(false);
+        //RestaurantTrig.SetActive(false);
 
         EndMessage.SetActive(true);
         StartCoroutine(Timer());
 
 
-        SceneManager.LoadScene(1);
+        
         
         //ButtonOptions a1 = new ButtonOptions();
         //a1.JobOffers();
@@ -53,7 +53,8 @@ public class LapComplete : MonoBehaviour
 
     IEnumerator Timer()
     {
-        yield return new WaitForSeconds(39990);
+        yield return new WaitForSeconds(3);
+        SceneManager.LoadScene(1);
     }
 
 

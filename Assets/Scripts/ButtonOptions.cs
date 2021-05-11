@@ -8,7 +8,7 @@ public class ButtonOptions : MonoBehaviour
 {
     public void FreePlay()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(5);
     }
 
     public void JobOffers()
