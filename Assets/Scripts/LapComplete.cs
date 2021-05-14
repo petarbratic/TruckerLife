@@ -10,12 +10,19 @@ public class LapComplete : MonoBehaviour
     public GameObject StorageTrig;
     public GameObject EndMessage;
 
+    public Renderer rend;
+
     // public GameObject MinuteDisplay;
     ///public GameObject SecondDisplay;
     ///public GameObject MilliDisplay;
 
     //    public GameObject LapTimeBox;
 
+    private void Start()
+    {
+        rend = GetComponent<Renderer>();
+        rend.enabled = true;
+    }
     void OnTriggerEnter()
     {
        /* if(LapTimeManager.SecondCount <= 9)
@@ -38,13 +45,15 @@ public class LapComplete : MonoBehaviour
         StorageTrig.SetActive(true);
         StoragePointTrigger.storageTrigBool = true;
         //RestaurantTrig.SetActive(false);
-
+        
         EndMessage.SetActive(true);
         StartCoroutine(Timer());
 
 
-        
-        
+        rend.enabled = false;
+
+
+
         //ButtonOptions a1 = new ButtonOptions();
         //a1.JobOffers();
 

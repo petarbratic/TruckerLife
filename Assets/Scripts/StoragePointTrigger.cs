@@ -8,7 +8,10 @@ public class StoragePointTrigger : MonoBehaviour
 
     public GameObject RestaurantTrig;
     public GameObject StorageTrig;
-
+    private void Start()
+    {
+       
+    }
     void OnTriggerEnter()
     {
        
