@@ -36,4 +36,8 @@ public class ButtonOptions : MonoBehaviour
     {
         SceneManager.LoadScene(4);
     }
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }
